@@ -7,7 +7,7 @@ The aim of this project was to compare TensorFlow (Keras API) and PyTorch by imp
 In Keras, the model was defined in just ~7 lines of code, while in PyTorch it required ~20 lines due to the need to explicitly define the architecture and forward pass.
 
 ### Model training:
-Keras allowed training in a single line using model.fit(), whereas in PyTorch I had to implement the full training loop manually, resulting in ~25–30 lines of additional code.
+Keras allowed training in a single line using model.fit(), whereas in PyTorch I had to implement the full training loop manually, resulting in ~50 lines of additional code.
 
 ### Results:
 Both frameworks achieved similar performance, with validation loss of approximately 0.058 (Keras) and 0.07 (PyTorch).
